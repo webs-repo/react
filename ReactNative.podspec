@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
   s.libraries = 'stdc++'
   s.vendored_frameworks = 
 	'DoubleConversion.xcframework',
-	'HMSegmentedControl.xcframework',
 	'folly.xcframework',
 	'RCTTypeSafety.xcframework',
+	'RNScreens.xcframework',
 	'React_Codegen.xcframework',
 	'React.xcframework',
 	'CoreModules.xcframework',
@@ -52,8 +52,8 @@ Pod::Spec.new do |s|
 	'logger.xcframework',
 	'reactperflogger.xcframework',
 	'ReactCommon.xcframework',
-	'ReactNativeNavigation.xcframework',
 	'yoga.xcframework',
 	'fmt.xcframework',
-	'glog.xcframework'
+	'glog.xcframework',
+	'react_native_safe_area_context.xcframework'
 end
